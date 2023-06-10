@@ -1,0 +1,60 @@
+public class  {
+
+ 
+    public static void main(String[] args) {
+      
+        int i=1; 
+        int n=1;
+ 
+ 
+ System.out.println("Output 1 \n");
+ for(i=1;i<6;i++){
+     System.out.print (i);//baştan aşağı sırayla i yi yazar
+    for(n=1;n<i;n++){
+        System.out.print((i+n));
+    }
+    System.out.println("");
+       
+ }
+ 
+ 
+ 
+
+ 
+ 
+ 
+ i=1;
+ n=1;
+ System.out.println("\n\nOutput 2 \n");
+ for(i=1;i<=n;i++){
+     System.out.print(i);//sırayla artan i leri baştan aşağı sırayla yazmayı sağlar
+ for(n=1;n<5;n++){
+    
+     if((i+n) < 6){System.out.print(i+n);}//yazdığım kod da sütunları sınırlamak için böyle bi yol kullandım.Bu koşul sayesinde istemediğim sayılardan kurtuldum
+ }
+ System.out.println("");
+ } 
+ 
+ 
+
+ 
+System.out.println("\n\nOutput 3 \n");
+i=1;
+int j=1;
+for(i=1;i<=5;i++){//işin üst tarafını alt tarafını ikiye bölerek ilerledim.Üst taraf için olan döngüm
+    for(j=1;j<=(2*i);j+=2){//j yi 2 yiyle topladığımdan i nin koşulunu 2yle çarptım.J yi 2 yle toplamamın sebebi ise verilen sayıların ikişerli arttırılarak karesinin alınması
+        System.out.print((j*j + " "));//sayıların karesini istiyor.O yüzden j kare yaptım.
+    }
+   System.out.println("");
+    }
+
+for(i=4;i>=1;i--){//alt tarafı oluşturmak için olan döngüm
+    for(j=1;j<=i*2;j+=2){
+        System.out.print(j*j + " ");
+    }
+    System.out.println("");
+}
+
+    }
+    
+}
