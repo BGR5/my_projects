@@ -1,8 +1,8 @@
-//Buğra Kafa 210315012   Q7
+
 package labquiz_210315012;
 
 
-public class Labquiz_210315012 {
+public class Lab {
 
     
     public static void main(String[] args) {
